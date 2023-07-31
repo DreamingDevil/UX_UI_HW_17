@@ -1,0 +1,79 @@
+body {
+  overflow: visible;
+  max-width: 1920px;
+  /* margin-right: 150px;
+  margin-left: 150px; */
+  padding-right: 0px;
+  padding-left: 0px;
+  font-family: "Noto Serif Bold";
+}
+
+
+.navigation {
+  background-color: #FFFFFF;
+  outline: 1px solid red;
+  display: flex;
+}
+
+.logo {
+  width: 5%;
+  padding: 1%;
+  outline: 1px solid red;
+}
+
+.nav {
+  width: 95%;
+  padding: 2%;
+  outline: 1px solid red;
+  text-align: right;
+  vertical-align: middle;
+}
+.nav li {
+  font-size: 24px;
+  color: #0e3d5b;
+  padding: 2%;
+}
+li a {
+  color: #0e3d5b;
+  text-decoration: none;
+}
+li a:hover {
+  color: #0e3d5b;
+  text-decoration: underline;
+}
+
+
+li {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: auto;
+}
+
+.content {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  outline: 1px solid red;
+}
+.heroImg img {
+  height: 600px;
+  padding: 25px 0px 0px 0px;
+  text-align: center;
+}
+footer {
+  background-color: #0e3d5b;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  padding: 0% 5%;
+  outline: 1px solid red;
+}
+
+.foot li {
+  padding: 0% 5%;
+  outline: 1px solid red;
+}
+
+.foot li a {
+  color: white;
+}
