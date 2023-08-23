@@ -1,79 +1,85 @@
+html {
+  font-family: "Helvetica", sans-serif;
+}
+
 body {
-  overflow: visible;
-  max-width: 1920px;
-  /* margin-right: 150px;
-  margin-left: 150px; */
-  padding-right: 0px;
-  padding-left: 0px;
-  font-family: "Noto Serif Bold";
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  background-image: url(../images/heroImg_background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-
-.navigation {
-  background-color: #FFFFFF;
-  outline: 1px solid red;
-  display: flex;
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
 }
 
-.logo {
-  width: 5%;
-  padding: 1%;
-  outline: 1px solid red;
+header {
+  /* background-color: aqua; */
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
-.nav {
-  width: 95%;
-  padding: 2%;
-  outline: 1px solid red;
-  text-align: right;
+.logo img {
+  width: 50px;
   vertical-align: middle;
-}
-.nav li {
-  font-size: 24px;
-  color: #0e3d5b;
-  padding: 2%;
-}
-li a {
-  color: #0e3d5b;
-  text-decoration: none;
-}
-li a:hover {
-  color: #0e3d5b;
-  text-decoration: underline;
+  margin: 0;
+  padding: 0;
 }
 
+nav ul {
+  list-style-type: none;
+  text-align: right;
+}
 
 li {
   display: inline-block;
-  vertical-align: top;
-  margin-left: auto;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.navmenu {
+  width: 50vw;
+  text-align: center;
+}
+
+.heroImg {
+  height: calc(100vh - 150px);
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
+.heroImg .content {
+  padding: 48px 0;
+  text-align: center;
+}
+
+.heroImg .content img {
+  height: 300px;
+  width: auto;
 }
 
 .content {
-  width: 500px;
   margin: 0 auto;
-  text-align: center;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
-.heroImg img {
-  height: 600px;
-  padding: 25px 0px 0px 0px;
-  text-align: center;
-}
+
 footer {
-  background-color: #0e3d5b;
+  background-color: #c6c6c6;
+  padding-top: 12px;
+  padding-bottom: 48px;
+}
+
+footer ul {
+  list-style-type: none;
   text-align: center;
-  margin: 0 auto;
-  color: white;
-  padding: 0% 5%;
-  outline: 1px solid red;
 }
 
-.foot li {
-  padding: 0% 5%;
-  outline: 1px solid red;
-}
-
-.foot li a {
-  color: white;
+footer li {
+  margin-left: 24px;
+  margin-right: 24px;
 }
